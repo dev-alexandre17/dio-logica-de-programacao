@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alexa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-08 08:20:25 "/>
+        <attribute name="created" value="YWxleGE7REVTS1RPUC1VMEVGN1A0OzIwMjEtMDYtMjE7IjA4OjI3OjM4ICI7Mjc2Mg=="/>
+        <attribute name="edited" value="YWxleGE7REVTS1RPUC1VMEVGN1A0OzIwMjEtMDYtMjE7IjA4OjQ1OjQ2ICI7MTsyODY5"/>
+        <attribute name="edited" value="YWxleGE7REVTS1RPUC1HR0kzU0YxOzIwMjEtMDktMDg7IjA4OjIwOjI1ICI7MjsyODc3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Real" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="((janeiro + fevereiro + marco + abril) / 4)"/>
+            <if expression="media &gt;= 5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! Voc&#234; vai receber um bono de 10%.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; receber&#225; um bono de 3%.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
