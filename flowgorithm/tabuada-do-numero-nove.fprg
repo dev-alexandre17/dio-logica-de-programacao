@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alexa"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-09-09 09:37:51 "/>
+        <attribute name="created" value="YWxleGE7REVTS1RPUC1VMEVGN1A0OzIwMjEtMDYtMjI7IjAyOjM5OjI3ICI7Mjc1OA=="/>
+        <attribute name="edited" value="YWxleGE7REVTS1RPUC1VMEVGN1A0OzIwMjEtMDYtMjI7IjAyOjU5OjMzICI7MTsyODY1"/>
+        <attribute name="edited" value="YWxleGE7REVTS1RPUC1HR0kzU0YxOzIwMjEtMDktMDk7IjA5OjM3OjUxICI7MTsyODg1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numTabuada, contador, loopDeNumeros" type="Integer" array="False" size=""/>
+            <assign variable="numTabuada" expression="9"/>
+            <assign variable="contador" expression="0"/>
+            <assign variable="loopDeNumeros" expression="0"/>
+            <output expression="&quot;Tabuada do n&#250;mero nove!&quot;" newline="True"/>
+            <while expression="contador &lt;= 10">
+                <output expression="numTabuada &amp; &quot; x &quot; &amp; loopDeNumeros &amp; &quot; : &quot; &amp; (numTabuada * contador)" newline="True"/>
+                <assign variable="contador" expression="contador + 1"/>
+                <assign variable="loopDeNumeros" expression="loopDeNumeros + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
