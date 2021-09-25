@@ -8,21 +8,21 @@
  * 
  */
 
-
 programa
 {
 	
 	funcao inicio()
 	{
+		
 		// Declaração de variáveis e atribuição de valores 
 		
 		inteiro contador = 0
 		cadeia clientes[][] = {{"João", "São Paulo", "(11) 9999-5241"}, {"Maria", "Ribeirão Preto", "(16) 9999-8596"},
 		{"Ana", "Manaus", "(92) 9999-8574"}}
 
-		escreva (" -------------------------------- Clientes ---------------------------------" + "\n")
+		// Geração da matriz e a exibição das mensagens
 
-		// Laço de repetição e a exibição dos dados
+		escreva (" -------------------------------- Clientes ---------------------------------" + "\n")
 
 		faca {
 
@@ -35,13 +35,14 @@ programa
 		escreva (" ---------------------------------------------------------------------------")
 
 	}
+	
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 615; 
+ * @POSICAO-CURSOR = 928; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
